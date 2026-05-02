@@ -110,7 +110,8 @@ According to the interface (see coursework description, page 5 ):
 
 ## 🎥 Test Run
 
-image
+
+![A* Path Planning Demo](test%20run/Screenshot%20test.png)
 
 
 ---
