@@ -21,7 +21,7 @@ from PyQt5.QtGui import (
 from PyQt5.QtCore import Qt, QPoint, QTimer
 import math
 import importlib
-import pathPlanner
+import A_star_path_planner
 
 
 class MainWindow(QMainWindow):
@@ -217,7 +217,7 @@ class MainWindow(QMainWindow):
 
         self.display_message("Running algorithm", "INFO")
         try:
-            importlib.reload(pathPlanner)
+            importlib.reload(A_star_path_planner)
             grid = self.create_grid()
 
             print("grid=", end='')
@@ -227,7 +227,7 @@ class MainWindow(QMainWindow):
             print("end=", end='')
             print(self.canvas.end)
 
-            unchecked_path = pathPlanner.do_a_star(
+            unchecked_path = A_star_path_planner.do_a_star(
                 grid,
                 self.canvas.start,
                 self.canvas.end,
