@@ -47,18 +47,15 @@ This implementation follows the original formulation described in the foundation
 ## 📂 Project Structure
 
 ```id="1g7cxg"
-a-star-path-planning/
+A-star-algorithm-Path-Planning/
 │
 ├── src/
-│   ├── gui.py              # GUI application (DO NOT MODIFY)
-│   └── A*_path_planner.py     # A* algorithm implementation
+│   ├── gui.py                     # GUI application (DO NOT MODIFY)
+│   └── A_star_path_planner.py     # A* algorithm implementation
 │
-├── demo/
-│   ├── screenshot.png     # Example output
-│   └── demo_video.mp4     # Working demonstration
-│
-├── docs/
-│   └── coursework.pdf     # Assignment description
+├── test run/
+│   ├── test screenshot.png         
+│   └── A star Path Planner.mp4   
 │
 └── README.md
 ```
@@ -70,8 +67,8 @@ a-star-path-planning/
 ### 1. Clone the repository
 
 ```id="x1gqru"
-git clone https://github.com/yourusername/a-star-path-planning.git
-cd a-star-path-planning
+git clone https://github.com/anspermiranda/A-star-algorithm-Path-Planning.git
+cd A-star-algorithm-Path-Planning
 ```
 
 ---
@@ -111,9 +108,10 @@ According to the interface (see coursework description, page 5 ):
 
 ---
 
-## 🎥 Demo
+## 🎥 Test Run
 
-(Add your screen recording here after upload)
+image
+
 
 ---
 
