@@ -1,5 +1,7 @@
 # A* Path Planning Algorithm (Autonomous Mobile Robots)
 
+![A* Path Planning Demo](test%20run/Screenshot%20test.png)
+
 ## 📌 Overview
 
 This project implements the **A* (A-Star) path planning algorithm** for a 2D grid-based environment using Python.
